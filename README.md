@@ -70,15 +70,15 @@
 
 ### 登录界面：
 
-![image-20250922014036346](C:\Users\lmh\AppData\Roaming\Typora\typora-user-images\image-20250922014036346.png)
+![登录界面](fronted/assets/loginr.png)
 
 ### 注册界面：
 
-![image-20250922013112654](C:\Users\lmh\AppData\Roaming\Typora\typora-user-images\image-20250922013112654.png)
+![注册界面](fronted/assets/registerr.png)
 
 ### 登陆后跳转
 
-![image-20250922013636630](C:\Users\lmh\AppData\Roaming\Typora\typora-user-images\image-20250922013636630.png)
+![登录后跳转](fronted/assets/dashboardr.png)
 
 ## 接口文档（用户登录、注册）
 

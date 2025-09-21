@@ -1,3 +1,74 @@
+# 用户登录注册系统
+
+这是一个基于Go后端和Vue3前端的用户登录注册系统，提供用户注册、登录功能，使用JWT进行身份验证。
+
+### 1. 数据库准备
+
+1. 安装并启动MySQL服务
+2. 创建数据库：
+   ```sql
+   CREATE DATABASE user CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+   ```
+3. 导入数据库表结构：
+   ```bash
+   mysql -u root -p user < user.sql
+   ```
+
+### 2. 后端启动
+
+1. 进入项目根目录：
+   ```bash
+   cd loginRegister
+   ```
+
+2. 安装Go依赖：
+   ```bash
+   go mod tidy
+   ```
+
+3. 修改数据库配置（如需要）：
+   编辑 `config/config.yaml` 文件，修改数据库连接信息：
+   ```yaml
+   database:
+     dsn: root:123456@tcp(127.0.0.1:3306)/user?charset=utf8mb4&parseTime=True&loc=Local
+   ```
+
+4. 启动后端服务：
+   ```bash
+   go run main.go
+   ```
+
+   后端服务将在 `http://localhost:8080` 启动
+
+### 3. 前端启动
+
+1. 进入前端目录：
+   ```bash
+   cd fronted
+   ```
+
+2. 安装依赖：
+   ```bash
+   npm install
+   ```
+
+3. 启动开发服务器：
+   ```bash
+   npm run dev
+   ```
+
+   前端服务将在 `http://localhost:5173` 启动
+
+### 4. 访问应用
+
+- 前端页面：http://localhost:5173
+- 后端API：http://localhost:8080
+
+## 项目结构
+
+
+
+
 ## 接口文档（用户登录、注册）
 
 ### （1） 用户注册

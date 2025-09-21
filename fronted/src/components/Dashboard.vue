@@ -2,7 +2,7 @@
   <div class="dashboard">
     <button class="logout-btn" @click="logout">退出登录</button>
     <h1>Welcome</h1>
-    <h2>Passion lights this world</h2>
+    <h2>Bravely forge the new world.</h2>
   </div>
 </template>
 

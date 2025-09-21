@@ -64,10 +64,21 @@
 - 前端页面：http://localhost:5173
 - 后端API：http://localhost:8080
 
-## 项目结构
+## 
 
+## 前端展示
 
+### 登录界面：
 
+![image-20250922014036346](C:\Users\lmh\AppData\Roaming\Typora\typora-user-images\image-20250922014036346.png)
+
+### 注册界面：
+
+![image-20250922013112654](C:\Users\lmh\AppData\Roaming\Typora\typora-user-images\image-20250922013112654.png)
+
+### 登陆后跳转
+
+![image-20250922013636630](C:\Users\lmh\AppData\Roaming\Typora\typora-user-images\image-20250922013636630.png)
 
 ## 接口文档（用户登录、注册）
 

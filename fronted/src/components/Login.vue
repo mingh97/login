@@ -3,7 +3,7 @@
     <div class="introduce">
       <div class="introduce-content">
         <p class="tips animate__animated animate__slideInLeft">
-          Enter a world where passion writes your tomorrow.
+          Enter a world and forge tomorrow with courage.
         </p>
       </div>
     </div>
